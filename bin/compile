@@ -6,6 +6,6 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 echo "=====> Running our custom server compilation to be saved in Heroku slugs"
-./compileServer.sh
+$BUILD_DIR/compileServer.sh
 echo "=====> Server compilation finished succesfully"
 
